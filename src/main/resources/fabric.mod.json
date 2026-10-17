@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "moreculling_extra",
+  "version": "${version}",
+  "name": "Planifolia",
+  "description": "Extra key bindings with profiles.",
+  "authors": ["xbananyt"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/moreculling_extra/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.mcextra.McExtraClient"]
+  },
+  "mixins": ["moreculling_extra.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
